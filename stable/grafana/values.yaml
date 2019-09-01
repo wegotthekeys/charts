@@ -107,6 +107,8 @@ service:
 
 ingress:
   enabled: false
+  # forces HTTP to HTTPS upgrades on AWS ALBs
+  albHttps: false
   annotations: {}
     # kubernetes.io/ingress.class: nginx
     # kubernetes.io/tls-acme: "true"

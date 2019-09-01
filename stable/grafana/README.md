@@ -47,6 +47,7 @@ The command removes all the Kubernetes components associated with the chart and 
 | `service.annotations`                     | Service annotations                           | `{}`                                                    |
 | `service.labels`                          | Custom labels                                 | `{}`                                                    |
 | `ingress.enabled`                         | Enables Ingress                               | `false`                                                 |
+| `ingress.albHttps`                        | Enables HTTP to HTTPS for AWS ALBs.           | `false`                                                 |
 | `ingress.annotations`                     | Ingress annotations                           | `{}`                                                    |
 | `ingress.labels`                          | Custom labels                                 | `{}`                                                    |
 | `ingress.path`                            | Ingress accepted path                         | `/`                                                     |
